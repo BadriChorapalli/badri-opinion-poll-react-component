@@ -1,0 +1,110 @@
+/*badri-opinion-poll*/
+.badri-opinion-poll{
+    width:300px !important;
+    margin:15px;
+    background: #36556d;
+    border-radius: 16%;
+    box-shadow: 5.71px 5.71px 48px #294153, -5.71px -5.71px 48px #436987;
+             padding:20px;
+}
+.badri-opinion-poll label{
+    width:100%;
+    font-weight: 500;
+    text-align: left;
+    float: left;
+    margin:10px;
+    margin-left:20px;
+    color:white !important;
+}
+.badri-opinion-poll ul{
+    list-style-type: none;
+    margin: 0;
+    margin-left:10px;
+    padding: 0;
+    text-align: left;
+
+  }
+  .badri-opinion-poll ul li{
+      line-height: 30px;
+  }
+  .badri-opinion-poll ul li button{
+    display: inline-block;
+    height:40px;
+    width:90%;
+    border:0px;
+    border-radius: 15px;
+     background: linear-gradient(145deg, #426784, #2A4356);
+    
+    box-shadow: 16.82px 16.82px 48px #213342, -16.82px -16.82px 48px #4B7798;
+           margin:12px;
+           padding-top:5px;
+           Text-align:center;
+           color:#45A1FF;
+           font-weight:600;
+           background: linear-gradient(145deg, #426784, #2A4356);
+
+box-shadow: 16.82px 16.82px 48px #213342, -16.82px -16.82px 48px #4B7798;
+  }
+  .badri-opinion-poll-button{
+   
+    height:40px;
+    width:50%;
+    border:1px solid #45A1FF;
+    background: linear-gradient(105deg, #45A1FF, #3171C8);
+    border-radius: 15px;
+    box-shadow: 5.71px 5.71px 48px #294153, -5.71px -5.71px 48px #436987;
+           margin:15px;
+           color:#ffffff;
+           
+  }
+  .badri-opinion-poll-button:hover{
+    background: #df3207;
+    border:1px solid #f36a48;
+  }
+  .badri-opinion-poll ul li button:hover{
+    background: #151616; 
+    color:#ffffff;
+  }
+  .badri-opinion-poll ul li button.select{
+    background: linear-gradient(145deg, #06EC3F, #049829);
+    color:#ffffff;
+  }
+  .badri-opinion-poll ul li button.progressbar{
+    background: none;
+  }
+  .badri-opinion-poll ul li button.progressbar div:first-child{
+    margin-left:-5px;
+  }
+  .badri-opinion-poll ul li button.progressbar:hover{
+    background: none;
+  }
+  
+  .badri-opinion-poll .progress-bar-parent{
+    border-radius: 15px !important;
+    width:100% !important;
+    height: 40px !important;
+    background: linear-gradient(145deg, #426784, #2A4356);
+    box-shadow: 16.82px 16.82px 48px #213342, -16.82px -16.82px 48px #4B7798;
+    color:#ffffff;
+    margin:0px !important;
+    margin-top:-5px !important;
+  }
+  .badri-opinion-poll .progress-bar-parent div:first-child{
+    background: linear-gradient(90deg, #d86f0e, #eb903c);
+  }
+  .badri-opinion-poll .progress-bar-parent span:first-child{
+    position:relative;
+    float:left;
+    top: 12px;
+    left:10px;
+    
+  }
+  .badri-opinion-poll .progress-bar-parent .progress-bar-percent-value{
+    color:white !important;
+    position:relative;
+    top: -30px !important;
+   float:right
+  }
+ 
+
+  
